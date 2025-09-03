@@ -1,0 +1,65 @@
+
+body {
+    font-family: tahoma, sans-serif;
+    background: #f8f5f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+}
+header {
+    background: #4e342e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+nav a:hover {
+    color: #ffd54f;
+}
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+h1, h2 {
+    text-align: center;
+}
+.coffee-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.coffee-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+    transition: 0.3s;
+}
+.coffee-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+}
+.coffee-card img {
+    width: 100%;
+    border-radius: 10px;
+    height: 160px;
+    object-fit: cover;
+}
+footer {
+    background: #4e342e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
