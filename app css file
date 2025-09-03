@@ -1,0 +1,82 @@
+/* ================== Body & Fonts ================== */
+body {
+    font-family: Tahoma, sans-serif;
+    background-color: #f5f5dc; /* پس‌زمینه روشن */
+    color: #333; /* رنگ متن اصلی */
+    margin: 20px;
+    line-height: 1.6;
+}
+
+/* ================== Heading ================== */
+h1, h2 {
+    text-align: center;
+    color: #8B0000; /* رنگ عنوان‌ها */
+    margin-bottom: 20px;
+}
+
+/* ================== Navigation Menu ================== */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #556B2F; /* رنگ لینک‌ها */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #8B0000;
+}
+
+/* ================== Section ================== */
+section {
+    margin: 0 auto 40px auto;
+    max-width: 800px;
+    padding: 15px;
+    background-color: #fff8dc; /* پس‌زمینه محتوا کمی روشن‌تر */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* ================== Images ================== */
+section img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* ================== Paragraphs & Lists ================== */
+p {
+    text-align: justify;
+}
+
+ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* ================== Responsive ================== */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        margin: 20px 10px;
+    }
+}
